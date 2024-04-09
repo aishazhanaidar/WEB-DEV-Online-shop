@@ -1,11 +1,13 @@
+# Applliccation Description:
+
 This web application is a endterm group project in Web Development 2023 Spring, KBTU. The application allows sellers to set advertisements, sell their products and monitor their sales. Users can purchase items and make orders.
 
-Technology Stack:
+##  Technology Stack:
 Angular
 Django
 SQLite
 
-Features:
+## Features:
 User authentication and authorization.
 Create, edit, and delete advertisements, orders, shops.
 Pagination to view products.
