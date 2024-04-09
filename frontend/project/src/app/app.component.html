@@ -1,0 +1,14 @@
+<div class="login" *ngIf="!is_logged">
+  <div class="content">
+    <h2 class="name"> Login </h2>
+    <div class="brd">
+      <p><input type="text" [(ngModel)]="username" placeholder="Username" /></p>
+      <p><input type="password" [(ngModel)]="pswd" placeholder="Password"/></p>
+      <button class="btn_in" (click)="login()">Login</button>
+    </div>
+  </div>
+  
+</div>
+<div class="main" *ngIf="is_logged">
+    <router-outlet></router-outlet>
+</div>

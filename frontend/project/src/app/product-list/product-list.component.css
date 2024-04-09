@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.box:nth-child(4n){
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cont{
+    width: 288px;
+    height: 315px;
+    background-color: #eaeaea;
+    padding:17px 9px 6px 9px;
+    margin-bottom: 15px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    margin-bottom:1rem;
+    text-decoration: none;
+}
+img{
+    display: flex;
+    justify-content: center;
+    width:268px;
+    height:211px;
+    object-fit: cover;
+}
+p{
+    float: right;
+    margin-top: 8px;
+}

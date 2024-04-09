@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+.cnt{
+    margin-left: 136px;
+}
+h3 {
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+.cat_prd{
+    width: 100%;
+}
+h5{
+    margin-top: 20px;
+}
+.app_prd{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/* .app_prd:nth-child(4n){
+    
+    display: grid;
+gap: 1rem;
+grid-template-columns: 18rem 18rem 18rem;
+} */

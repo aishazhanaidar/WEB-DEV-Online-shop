@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.box:nth-child(4n){
+    flex-direction: column;
+}
+.cont{
+    width: 288px;
+    height: 283px;
+    left: 105px;
+    top: 145px;
+    background-color: #eaeaea;
+    padding:17px 9px 6px 9px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+img{
+    width:268px;
+    height:211px;
+    object-fit: cover;
+    
+    display: flex;
+    justify-content: center;
+}

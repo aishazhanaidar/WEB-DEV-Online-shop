@@ -1,0 +1,18 @@
+<app-top-bar></app-top-bar>
+
+<div class="rgt" *ngIf="product">
+  <div class="cnt">
+    <img [src]="product.image" alt="img">
+    <div class="descr">
+        <ul>
+          <p class="name">{{product.name}}</p>
+          <p class="price"><b>{{product.price}}$</b></p>
+          <p class="description">Description:{{product.description}}</p>  
+          <p class="status">Status: {{product.status}}</p>
+        </ul>
+      
+    </div>
+  </div>
+
+</div>
+

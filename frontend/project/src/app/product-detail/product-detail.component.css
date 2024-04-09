@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.rgt{
+    margin: 1.5rem 8.5rem;
+    display: flex;
+    justify-content: center;
+}
+.cnt{
+    display: block;
+    width: 100%;
+    height: 700;
+    padding:17px 0px 6px 0px;
+}
+img{
+    width:40rem;
+    height:35rem;
+    object-fit: cover;
+}
+.descr{
+    display:flex;
+    float: right;
+    margin-right: 8rem;
+
+}
+.name{
+    font-size: 2rem;
+    margin: 8px 0px 8px 0px;
+}
+.price{
+    margin-bottom: 8px;
+}  
+.description{
+    inline-size: 25rem ;
+    overflow-wrap: break-word;
+    margin-bottom: 8px;
+}
+.status{
+    margin-bottom: 8px;
+}
+
+
