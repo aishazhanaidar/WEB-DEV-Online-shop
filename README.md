@@ -1,6 +1,6 @@
-# Applliccation Description:
+# Applliccation Description: 
 
-This web application is a endterm group project in Web Development 2023 Spring, KBTU. The application allows sellers to set advertisements, sell their products and monitor their sales. Users can purchase items and make orders.
+This is a endterm group project in Web Development 2023 Spring, KBTU. Servicescape is a online advertisement platform, which allows users to make purchases, find accommodation, rent cars, find everything, that can be sold. The application allows sellers and renters to set advertisements, sell their products and monitor their sales. Users can purchase items and make orders. 
 
 ##  Technology Stack:
 Angular
