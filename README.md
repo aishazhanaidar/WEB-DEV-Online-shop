@@ -9,7 +9,7 @@ SQLite
 
 ## Features:
 User authentication and authorization.
-Create, edit, and delete advertisements, orders, shops.
+Create, edit, and delete advertisements, orders, shops
 Pagination to view products.
 Sorting options to order goods by categories, rating, price.
 Responsive design for web browser.
